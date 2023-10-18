@@ -1,12 +1,33 @@
-<img src="https://pjreddie.com/media/image/yologo_2.png" width="100"/>
+Face Detection and Blurring Tool (FaceSecure)
 
-<img src="https://img.shields.io/badge/python-3.9.0-blue.svg"> <img src="https://img.shields.io/badge/license-MIT-blue.svg">
+1. Overview:
+FaceSecure aims to provide an efficient and user-friendly tool to process videos, detect faces, and blur them for privacy concerns. The tool will cater to future projects ensuring scalability, reliability, and extensibility.
 
-# yolov7-face-blur
+2. Objectives:
+- Provide a seamless user experience for video processing.
+- Efficiently detect and blur faces in videos.
+- Ensure scalability to accommodate large videos or higher volumes in the future.
+- Build with extensibility in mind for future feature enhancements.
 
-This repository is created on top of two repository
-1. [Object Blurring by RizwanMunawar](https://github.com/RizwanMunawar/yolov7-object-blurring)
-2. [Face detction by derronqi](https://github.com/derronqi/yolov7-face)
+3. Target Audience:
+- Machine operators on shop floors.
+- Supervisors and managers requiring video analysis.
+- Any industry or individual requiring face obfuscation in videos.
+
+4. Functional Requirements:
+
+4.1 Core Functionality:
+- Video Input:
+  - Accept common video formats (e.g., .mp4, .avi).
+  - Allow bulk video uploads.
+
+- Face Detection & Blurring:
+  - Detect faces in each video frame.
+  - Blur detected faces.
+
+- Video Output:
+  - Provide videos with blurred faces.
+  - Support downloading videos individually or in bulk.
 
 ____
 
